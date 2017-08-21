@@ -9,9 +9,9 @@
 // Dog Constructor & Prototype
 function Dog (status, color, hungry, owner) {
   this.status = status;
-  this.color = color
-  this.hungry = hungry
-  this.owner = owner
+  this.color = color;
+  this.hungry = hungry;
+  this.owner = owner;
 }
 
 
@@ -19,9 +19,9 @@ function Dog (status, color, hungry, owner) {
 // Instances of Dog
 // Needed: sadie, moonshine, atticus
 
-sadie = new Dog('normal', 'black', false)
-moonshine = new Dog('normal', 'brown', true)
-atticus = new Dog('normal', 'brindle', )
+sadie = new Dog('normal', 'black', false);
+moonshine = new Dog('normal', 'brown', true);
+atticus = new Dog('normal', 'brindle');
 
 
 //     __
@@ -32,19 +32,19 @@ atticus = new Dog('normal', 'brindle', )
 
 // Human Constructor & Prototype
 function Human (cool) {
-  this.cool = cool
+  this.cool = cool;
 }
 
-mason = new Human(false)
-julia = new Human(true)
+mason = new Human(false);
+julia = new Human(true);
 
 // Instances of Human
 // Needed: mason, julia
 
 Human.prototype.pet = function(dog){
-  return dog.status = 'happy'
+  return dog.status = 'happy';
 }
 
 Human.prototype.feed = function(dog){
-  return dog.hungry = false
+  return dog.hungry = false;
 }
